@@ -6,13 +6,13 @@
   
   <groupId>org.gatein.common</groupId>
   <artifactId>common-parent</artifactId>
-  <version>2.0.5-Beta01-SNAPSHOT</version>
+  <version>2.1.0.Beta01-SNAPSHOT</version>
   <packaging>pom</packaging>
   
   <parent>
     <groupId>org.gatein</groupId>
     <artifactId>gatein-parent</artifactId>
-    <version>1.1.0-GA</version>
+    <version>1.2.0.Beta01-SNAPSHOT</version>
   </parent>
  
   <scm>
@@ -31,7 +31,7 @@
     <autoVersionSubmodules>true</autoVersionSubmodules>
       
     <!-- buildnumber-maven-plugin : needs 1.0 for git -->
-    <version.buildnumber.plugin>1.0</version.buildnumber.plugin>
+    <!--<version.buildnumber.plugin>1.0</version.buildnumber.plugin>-->
   
   </properties>
   
@@ -41,7 +41,7 @@
       <dependency>
         <groupId>org.gatein</groupId>
         <artifactId>gatein-dep</artifactId>
-        <version>1.1.0-GA</version>
+        <version>1.2.0.Beta01-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -51,7 +51,6 @@
   <modules>
     <module>logging</module>
     <module>common</module>
-    <module>mc</module>
   </modules>
 
 </project>
